@@ -30,8 +30,4 @@ goto end
 
 rem end of the build script
 :end
-<<<<<<< HEAD
 echo script finished....
-=======
-echo script finished....
->>>>>>> 562cb7f0ffcdaf84df810cd3b80fb8aae5fe52ca
