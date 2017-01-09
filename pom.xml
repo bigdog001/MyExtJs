@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.mycomm.web.hadoopz</groupId>
-    <artifactId>hadoopz</artifactId>
+    <groupId>com.bigdog.myextjs</groupId>
+    <artifactId>myextjs</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>hadoopz</name>
+    <name>myextjs</name>
     <url></url>
     <description></description>
     <properties>
