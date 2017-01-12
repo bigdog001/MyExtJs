@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+ <HEAD>
+  <TITLE>图表示例：不规则图形</TITLE>
+  <meta http-equiv="Content-Type" CONTENT="text/html; charset=UTF-8"/>
+  <link rel="stylesheet" type="text/css" href="../../ext-4.0/resources/css/ext-all.css" />
+  <script type="text/javascript" src="../../ext-4.0/bootstrap.js"></script>
+  <script type="text/javascript" src="../../ext-4.0/locale/ext-lang-zh_CN.js"></script>
+ </HEAD>
+<SCRIPT LANGUAGE="JavaScript">
+Ext.onReady(function() {
+	//创建图形组件
+    Ext.create('Ext.draw.Component', {
+        width: 600,
+        height: 400,
+		viewBox : false,//使图形保持原始大小
+        renderTo: 'container',
+        items: [{
+            type: 'path',//路径
+            path: 'm67,291l78,-131l27,105l85,-131l24,125l86,-208l90,225l-390,15z',//路径字符串
+			stroke : "#000000",
+			fill : "#FF3300"
+        }]
+    });
+});
+</SCRIPT>
+ <BODY><div id="container"/></BODY>
+</HTML>
